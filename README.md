@@ -20,3 +20,7 @@ Example API request:
 
 ### Sample of forms-like request
 please visit [this link](https://herdissamhcid.github.io/model_deployment/)
+<p>
+  <img src="into.PNG" width="350" title="hover text">
+  <img src="reject.PNG" width="350" alt="accessibility text">
+</p>
