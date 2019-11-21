@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Credit Scoring</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+
+
+	<div class="container-contact100">
+
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					PREDICT THE CLIENTS ACCEPTABILITY
+				</span>
+
+				<!-- <span>Please Enter the client's identity to </span> -->
+
+<!-- 
+				<div class="" -->
+
+				<div class="wrap-input100 validate-input" data-validate="Please enter Feature 1">
+					<input class="input100" type="text" id="feature1" name="feature1" placeholder="Credit Amount (Markz)">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate="Please enter Feature 2">
+					<input class="input100" type="text" id="feature2" name="feature2" placeholder="Duration (Months)">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate="Please enter Feature 3">
+					<input class="input100" type="text" id="feature3" name="feature3" placeholder="Installment Rate (Percentage)">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate="Please enter Feature 4">
+					<input class="input100" type="text" id="feature4" name="feature4" placeholder="Residence Since (Months)">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate="Please enter Feature 5">
+					<input class="input100" type="text" id="feature5" name="feature5" placeholder="Age (Years)">
+					<span class="focus-input100"></span>
+				</div>
+
+				<!-- <div class="wrap-input100 validate-input" data-validate = "Please enter your email: e@a.x">
+					<input class="input100" type="text" name="email" placeholder="E-mail">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Please enter your phone">
+					<input class="input100" type="text" name="phone" placeholder="Phone">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Please enter your message">
+					<textarea class="input100" name="message" placeholder="Your Message"></textarea>
+					<span class="focus-input100"></span>
+				</div> -->
+
+				<div class="container-contact100-form-btn">
+					<div id="predict-button" class="contact100-form-btn">
+						<span>
+							<i class="fa  fa-check-square m-r-6" aria-hidden="true"></i>
+							PREDICT
+						</span>
+					</div>
+				</div>
+			</form>
+		</div>
+		<div id="result" style="position: fixed; top: 50%; left: 50%; width: 550px; height: 200px; z-index: 99999; background-color: rgba(0, 0, 0, 0.25); margin-top: -100px; margin-left: -275px;border-radius: 8px; text-align: center; text-align: center; vertical-align: middle;line-height: 200px; font-size: 18px; display: none;">
+			<span style="font-size: 30px;" id="result-text">REJECTED!!!</span>
+			<!-- The client with those characteristics is <span style="font-size: 18px;" id="result-text">REJECTED</span> with score of <span id="result-score">0.0233</span> -->
+		</div>
+	</div>
+
+
+
+	<div id="dropDownSelect1"></div>
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+	<script src="js/check.js"></script>
+<!--===============================================================================================-->
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+
+</body>
+</html>
